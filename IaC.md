@@ -12,11 +12,11 @@ feat: add hat wobble
 ```
 
 Type: This categorizes the commit based on its purpose, such as 
-- feat (new feature)
-- fix (bug fix)
+- feat (new feature): Adding new roles, playbooks, or tasks that introduce new capabilities to the infrastructure. For example, provisioning a new type of server, implementing a backup solution, or adding a load balancer configuration.
+- fix (bug fix): Resolving issues that prevent the infrastructure code from executing as intended, such as fixing incorrect task sequences, remedying idempotency issues, or addressing misconfigurations that affect infrastructure stability or performance.
 - docs (documentation)
 - style (formatting, missing semi colons, etc.)
-- refactor (code change that neither fixes a bug nor adds a feature)
+- refactor (code change that neither fixes a bug nor adds a feature): Modifying roles, playbooks, or tasks to improve readability, reusability, or efficiency, such as consolidating tasks, improving variable usage, or adopting newer Ansible features for cleaner code, without introducing new functionality.
 - test (adding missing tests)
 - and chore (maintenance tasks).
 
